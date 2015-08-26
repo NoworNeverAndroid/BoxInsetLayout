@@ -1,0 +1,30 @@
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0000FF"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_box="all">
+
+        <TextView android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="BoxInsetLayout"
+            android:textColor="@color/white" />
+
+        <ImageButton android:layout_gravity="bottom|left"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@drawable/tumblr22" />
+
+        <ImageButton android:layout_gravity="bottom|right"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@drawable/youtube35" />
+
+    </FrameLayout>
+
+</android.support.wearable.view.BoxInsetLayout>
